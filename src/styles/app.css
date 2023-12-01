@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+#ins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 2vh; */
+  background-color: #101010;
+  position: relative;
+}
+
+.win-window {
+  margin-top: 4.7rem;
+  width: 20vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 10px;
+  position: absolute;
+  opacity: 0.9;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.not-win {
+  opacity: 0;
+}
+
+button {
+  width: 10vw;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 245, 245, 0.5);
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgba(7, 134, 134, 0.5);
+}
+button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+p {
+  color: #101010;
+  font-weight: 800;
+  font-size: 1.5rem;
+}

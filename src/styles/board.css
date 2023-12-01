@@ -1,0 +1,30 @@
+:root {
+  --border-color: #1bb1f7;
+  --border-thickness: 5px;
+}
+.board {
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  flex-wrap: wrap;
+}
+.input {
+  height: 33.33%;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: "Bellefair", serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 4.5rem;
+  border-top: dashed var(--border-color);
+  border-bottom: dashed var(--border-color);
+  border-left: dashed var(--border-color);
+  border-right: dashed var(--border-color);
+}
