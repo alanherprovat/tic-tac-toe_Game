@@ -1,6 +1,6 @@
 ## Tic-Tac-Toe
 I developed a web application utilizing React JS, which encompasses features of tic-tac-toe. The screenshot below provides a visual representation of the web application’s interface.
-## Home Page
+
 ![Preview1](https://drive.google.com/uc?export=view&id=1db6NQsq31ydW7IJPGE6yJnsFe9wsX-x4)
 
 ## Functionalities:
@@ -9,7 +9,7 @@ I developed a web application utilizing React JS, which encompasses features of 
    - The game includes three possible outcomes: a win for player X, a win for player O, or a draw.
    - Implemented a reset feature that allows the game to be restarted once any of the outcomes is reached.
    
-## [Live Demo:](https://tie-tac-toe-demo.netlify.app/)**
+## [Live Demo:](https://tie-tac-toe-demo.netlify.app/)
    - After completing Production build, project is being deployed at [Netlify](https://tie-tac-toe-demo.netlify.app/).
 
 ## How to Clone the Project
